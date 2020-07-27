@@ -1,0 +1,110 @@
+.s-tittle-c h1 {
+color: #FF9900;
+z-index: 10;
+
+}
+
+
+.s-tittle-c h1:after,
+.s-tittle-c h1:before {
+  content: "";
+  display: block;
+  width: 320px;
+  height: 5px;
+  background: #FF9900;
+  margin: 8px auto 6px auto;
+  z-index:10px;
+}
+
+.header-menu ul li a.menu-ativo {
+  color: #FF9900;
+}
+
+.bg-contato {
+  position: absolute;
+  height: 247px;
+  top: 120px;
+  z-index: -2;
+}
+
+.subtit h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffbb11;
+  line-height: 20px;
+  margin-bottom: 10px;
+ display:flex;
+ padding-top: 120px;
+}
+
+.subtit h2::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #ffbb11;
+  border-radius: 50%;
+  border: 2px solid #0e1013;
+  margin: 2px 6px;
+}
+
+.dados-c ul li {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.001em;
+  padding-left: 20px;
+}
+
+h3.subtit {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffbb11;
+  line-height: 20px;
+  margin-bottom: 20px;
+ display:flex;
+ padding-top: 20px;
+
+}
+
+h3.subtit::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #ffbb11;
+  border-radius: 50%;
+  border: 2px solid #0e1013;
+  margin: 2px 6px;
+}
+.meio {
+  float: right;
+  position: absolute;
+  left: 320px;
+  top:-210px;
+}
+
+.inn {
+  position: absolute;
+  left: 90px;
+  top:20px;
+}
+
+.mapa {
+  float: right;
+  position: relative;
+  left: 70px;
+  top: -210px;
+  margin-bottom: -230px;
+}
+.cont-call {
+  position: absolute;
+top: 850px;
+padding-left: 90px;
+color: white;
+}
+
+
+
+
+
